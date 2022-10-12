@@ -1,0 +1,14 @@
+{
+  "name": "section_5_project_building_a_startup_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser": "browser-sync start --server --watch --files '*' ",
+    "scss": "sass scss/styles.scss css/styles.css -w",
+    "deploy": "git push deploy production"
+  },
+  "author": "",
+  "license": "ISC"
+}
